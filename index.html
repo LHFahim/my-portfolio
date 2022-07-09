@@ -20,56 +20,48 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <section class="top-banner flexible-container">
-      <div class="half-width">
-        <h1>Welcome to</h1>
-        <h1><span class="orange-color">Fahim's</span> portfolio</h1>
-        <div class="header-description">
-          <h3>Hi, I'm Fahim. Glad to have you here.</h3>
-          <p>
-            I am a web developer based in Bangladesh. I enjoy developing web
-            applications from scratch. Programming has been passion for me since
-            my school days! At the beginning of my journey, I spent pretty long
-            time into competitive programming, and then moved to learning web
-            development.
-          </p>
+    <header>
+      <div class="header-container">
+        <article class="header-container-article">
+          <div class="header-container-title">
+            <h1 class="title-welcome">Welcome to</h1>
+            <h1 class="title-name">
+              <span class="orange-color">Fahim's</span> portfolio
+            </h1>
+          </div>
+
+          <div class="header-container-description">
+            <h3>Hi, I'm Fahim. Glad to have you here.</h3>
+            <p class="header-container-p">
+              I am a web developer based in Bangladesh. I enjoy developing web
+              applications from scratch. Programming has been passion for me
+              since my school days! At the beginning of my journey, I spent
+              pretty long time into competitive programming, and then moved to
+              learning web development.
+            </p>
+          </div>
+
+          <a
+            class="link-button hire-btn"
+            target="_blank"
+            href="https://twitter.com/iFahimH"
+            >Hire me</a
+          >
+        </article>
+
+        <div class="header-image">
+          <img class="header-image-img" src="images/ft1.png" alt="" />
         </div>
-        <a
-          class="link-button hire-btn"
-          target="_blank"
-          href="https://twitter.com/iFahimH"
-          >Hire me</a
-        >
       </div>
-      <div class="half-width">
-        <img style="padding-top: 10%" src="images/f1.png" alt="" />
-      </div>
-    </section>
+    </header>
 
-    <section class="dream-big flexible-container">
-      <div class="half-width"><img src="images/f2.png" alt="" /></div>
-      <div class="half-width">
-        <h1>Dream Big</h1>
-        <h2>Become a web developer</h2>
-        <p class="dream-description">
-          I entered the realm of web development using Spring Framework.
-          However, I am an aspiring full-stack MERN developer. I can create
-          beautiful and responsive web apps, and ensure security along with
-          smooth usage.
-        </p>
-        <a class="link-button" target="_blank" href="https://github.com/LHFahim"
-          >Check my Github</a
-        >
-      </div>
-    </section>
+    <section class="qualification-area">
+      <h1 class="qualification-area-title">Experiences</h1>
 
-    <section class="experience-area">
-      <h1 style="text-align: center; margin-bottom: 50px">Experiences</h1>
-
-      <div class="flexible-container">
-        <div id="education" class="experience-item">
-          <h2>Education</h2>
-          <ul>
+      <div class="qualification-container">
+        <div class="education">
+          <h2 id="edu-title">Education</h2>
+          <ul class="edu-items">
             <li>Secondary School Certificate <small>Year: 2015</small></li>
             <li>Higher Secondary Certificate <small>Year: 2017</small></li>
             <li>
@@ -82,11 +74,10 @@
           </ul>
         </div>
 
-        <div id="skills" class="experience-item">
-          <h2>Full Stack Web Developer</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS, Bootstrap</li>
+        <div class="skills">
+          <h2 id="skill-title">Full Stack Web Developer</h2>
+          <ul class="skill-items">
+            <li>HTML, CSS, Bootstrap</li>
             <li>React</li>
             <li>MongoDB</li>
             <li>Node JS, Express JS</li>
@@ -94,8 +85,10 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <h3 class="ft-header">Be Humble</h3>
+      <small class="ft-cr">© LH Fahim 2022</small>
+    </footer>
   </body>
-  <footer>
-    <p>© LH Fahim 2022</p>
-  </footer>
 </html>
