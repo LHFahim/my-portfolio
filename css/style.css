@@ -175,6 +175,11 @@ footer {
     flex-direction: column;
   }
 
+  .title-welcome {
+    position: relative;
+    right: 30px;
+  }
+
   .header-container-description {
     margin-bottom: 10%;
     position: relative;
