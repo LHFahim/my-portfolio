@@ -187,13 +187,22 @@ footer {
   }
 
   .qualification-container {
-    display: block;
-    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
   }
 
   .education,
   .skills {
     position: relative;
     margin: 5% auto;
+  }
+
+  .education,
+  .skills {
+    height: 100%;
+    width: 80%;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
   }
 }
