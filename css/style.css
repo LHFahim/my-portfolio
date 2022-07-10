@@ -160,14 +160,13 @@ footer {
 @media (max-width: 768px) {
   .header-container {
     display: flex;
-    justify-content: center;
-    flex-flow: wrap;
   }
-  /* .header-image {
-    display: flex;
-  } */
+  .header-image {
+    align-self: center;
+  }
   .header-container-title {
     margin-bottom: 10%;
+
     font-size: 2.5rem;
     display: flex;
     flex-direction: column;
